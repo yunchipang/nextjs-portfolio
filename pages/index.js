@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import links from '../constants/links';
 
 
-export default function Home({ allPostsData }) {
+export default function Home() {
   return (
     <Layout home>
       <Head>
