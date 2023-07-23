@@ -17,7 +17,7 @@ export default function Home () {
         <p>🌱 i am actively seeking fall 2023/summer 2024 internship/co-op opportunities in software engineering! you can contact me via {" "}
           <Link href={profileLinks.LINKEDIN} target="_blank">linkedin</Link>.
         </p>
-        <p>✨ when i am not in front of my computer screen, i train in hip-hop at {" "}
+        <p>✨ when i am not coding, i train in hip-hop at {" "}
           <Link href={profileLinks.GG} target="_blank">@groovegenerationco</Link> 
           {" "} and write blogs for {" "}
           <Link href={profileLinks.TRIZTRAVEL} target="_blank">triztravel.com</Link>.
