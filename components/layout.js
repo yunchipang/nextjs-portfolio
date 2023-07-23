@@ -1,10 +1,11 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 
 const name = 'Yunchi Pang';
-export const siteTitle = 'yunchipang.com';
+export const siteTitle = 'yunchipang';
 
 export default function Layout({ children, home }) {
   return (
