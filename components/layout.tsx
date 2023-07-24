@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from './layout.module.css';
+import NavBar from './NavBar';
 import utilStyles from '../styles/utils.module.css';
 
 const name = 'Yunchi Pang';
@@ -28,6 +29,7 @@ export default function Layout({
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+      <NavBar />
       <header className={styles.header}>
         {home ? (
           <>
