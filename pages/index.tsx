@@ -1,8 +1,9 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+
+import Layout, { siteTitle } from '../components/layout';
 import profileLinks from '../constants/profileLinks';
+import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
   return (
