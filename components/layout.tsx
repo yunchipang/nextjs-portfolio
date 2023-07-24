@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
 import NavBar from './NavBar';
+import utilStyles from '../styles/utils.module.css';
 
 const name = 'Yunchi Pang';
 export const siteTitle = 'yunchipang';

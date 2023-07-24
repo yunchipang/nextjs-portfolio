@@ -18,6 +18,7 @@
 // }
 
 import Link from 'next/link';
+
 import navLinks from '../utils/navLinks';
 
 const navBarStyle = {
