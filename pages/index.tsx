@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout, { siteTitle } from '../components/layout';
-import profileLinks from '../constants/profileLinks';
+import profileLinks from '../utils/profileLinks';
 import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
