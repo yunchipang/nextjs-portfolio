@@ -3,9 +3,9 @@ const GG: string = 'https://www.instagram.com/groovegenerationco/';
 const TRIZTRAVEL: string = 'https://triztravel.com/';
 
 const profileLinks = {
-    LINKEDIN,
-    GG,
-    TRIZTRAVEL
+  LINKEDIN,
+  GG,
+  TRIZTRAVEL,
 };
-  
+
 export default profileLinks;
