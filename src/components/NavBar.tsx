@@ -1,22 +1,3 @@
-// import Link from 'next/link';
-// import navLinks from '../utils/navLinks';
-
-// export default function NavBar() {
-//   return (
-//     <nav>
-//       {navLinks.map((link, index) => {
-//         return (
-//           <ul>
-//             <Link href={link.path}>
-//               <li key={index}>{link.name}</li>
-//             </Link>
-//           </ul>
-//         );
-//       })}
-//     </nav>
-//   );
-// }
-
 import Link from 'next/link';
 
 import navLinks from '../utils/navLinks';
