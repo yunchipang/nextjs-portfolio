@@ -1,3 +1,9 @@
+import {
+  faLinkedin,
+  faInstagram,
+  faWordpress,
+} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -21,20 +27,18 @@ export default function Home() {
           🌱 i am actively seeking fall 2023/summer 2024 internship/co-op
           opportunities in software engineering! you can contact me via{' '}
           <Link href={profileLinks.LINKEDIN} target="_blank">
-            linkedin
+            <FontAwesomeIcon icon={faLinkedin} size="lg" />
           </Link>
-          .
         </p>
         <p>
-          ✨ when i am not in front of my computer screen, i train in hip-hop at{' '}
+          ✨ when i am not coding, i train in hip-hop at{' '}
           <Link href={profileLinks.GG} target="_blank">
-            @groovegenerationco
+            <FontAwesomeIcon icon={faInstagram} size="lg" /> groovegenerationco
           </Link>{' '}
-          and write blogs for{' '}
+          and i write blogs for{' '}
           <Link href={profileLinks.TRIZTRAVEL} target="_blank">
-            triztravel.com
+            <FontAwesomeIcon icon={faWordpress} size="lg" /> triztravel.com
           </Link>
-          .
         </p>
       </section>
     </Layout>
