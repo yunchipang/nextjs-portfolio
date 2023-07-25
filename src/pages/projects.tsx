@@ -21,13 +21,19 @@ export default function Projects({ allProjectsData }) {
         <title>projects</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>projects</h2>
+        {/* <h2 className={utilStyles.headingLg}>projects</h2> */}
         <ul className={utilStyles.list}>
-          {allProjectsData.map(({ id, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/projects/${id}`}>{title}</Link>
-            </li>
-          ))}
+          {allProjectsData.map(
+            ({ id, title, description, githubLink, techStack }) => (
+              <li className={utilStyles.listItem} key={id}>
+                <h3>{title}</h3>
+                <p>{description}</p>
+                <p>Tech Stack: {techStack.join(', ')}</p>
+                <p>GitHub Link: {githubLink}</p>
+                <Link href={`/projects/${id}`}>{title}</Link>
+              </li>
+            )
+          )}
         </ul>
       </section>
     </Layout>
