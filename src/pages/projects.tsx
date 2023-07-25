@@ -1,3 +1,5 @@
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -29,8 +31,14 @@ export default function Projects({ allProjectsData }) {
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <p>Tech Stack: {techStack.join(', ')}</p>
-                <p>GitHub Link: {githubLink}</p>
-                <Link href={`/projects/${id}`}>{title}</Link>
+                <Link
+                  href={githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faGithub} size="lg" />
+                </Link>
+                {/* <Link href={`/projects/${id}`}>{title}</Link> */}
               </li>
             )
           )}
