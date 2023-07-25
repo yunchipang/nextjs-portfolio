@@ -28,17 +28,32 @@ export default function Projects({ allProjectsData }) {
           {allProjectsData.map(
             ({ id, title, description, githubLink, techStack }) => (
               <li className={utilStyles.listItem} key={id}>
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <p>Tech Stack: {techStack.join(', ')}</p>
-                <Link
-                  href={githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <div
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '10px',
+                  }}
                 >
-                  <FontAwesomeIcon icon={faGithub} size="lg" />
-                </Link>
-                {/* <Link href={`/projects/${id}`}>{title}</Link> */}
+                  <h3>
+                    <Link href={`/projects/${id}`}>{title}</Link>
+                  </h3>
+                  <Link
+                    href={githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faGithub} size="lg" />
+                  </Link>
+                </div>
+                <p>{description}</p>
+                <div className={utilStyles.techStackTags}>
+                  {techStack.map((tech) => (
+                    <span key={tech} className={utilStyles.techTag}>
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </li>
             )
           )}
