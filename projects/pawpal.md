@@ -5,8 +5,9 @@ description: Pet-focused social media
 githubLink: https://github.com/yunchipang/PawPal
 techStack:
   - Java
+  - Android
   - Firebase
-  - Google Maps SDK for Android
+  - Google Maps SDK
   - Google Places API
 ---
 
