@@ -28,7 +28,7 @@ export default function Home() {
           🌱 i am actively seeking fall 2023/summer 2024 internship/co-op
           opportunities in software engineering! you can contact me via{' '}
           <Link href={profileLinks.LINKEDIN} target="_blank">
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faLinkedin} size="lg" />
           </Link>
         </p>
         <p>
