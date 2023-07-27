@@ -33,7 +33,7 @@ export default function Home() {
         <p>
           ✨ when i am not coding, i train in hip-hop at{' '}
           <Link href={profileLinks.GG} target="_blank">
-            <FontAwesomeIcon icon={faInstagram} size="lg" /> groovegenerationco
+            <FontAwesomeIcon icon={faInstagram} size="lg" /> groovegeneration
           </Link>{' '}
           and i write blogs for{' '}
           <Link href={profileLinks.TRIZTRAVEL} target="_blank">
