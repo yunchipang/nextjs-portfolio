@@ -3,6 +3,7 @@ import {
   faInstagram,
   faWordpress,
 } from '@fortawesome/free-brands-svg-icons';
+import { faCircleDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -33,12 +34,20 @@ export default function Home() {
         <p>
           ✨ when i am not coding, i train in hip-hop at{' '}
           <Link href={profileLinks.GG} target="_blank">
-            <FontAwesomeIcon icon={faInstagram} size="lg" /> groovegenerationco
+            <FontAwesomeIcon icon={faInstagram} /> groovegeneration
           </Link>{' '}
           and i write blogs for{' '}
           <Link href={profileLinks.TRIZTRAVEL} target="_blank">
-            <FontAwesomeIcon icon={faWordpress} size="lg" /> triztravel.com
+            <FontAwesomeIcon icon={faWordpress} /> triztravel.com
           </Link>
+        </p>
+      </section>
+      <br />
+      <section className={utilStyles.headingMd}>
+        <p>
+          <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faCircleDown} /> download my resume
+          </Link>{' '}
         </p>
       </section>
     </Layout>
