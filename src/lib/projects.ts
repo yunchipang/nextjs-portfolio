@@ -29,8 +29,8 @@ export function getSortedProjectsData() {
         title: string;
         description: string;
         githubLink: string;
-        techStack: string[];
         imagePath: string;
+        techStack: string[];
       }),
     };
   });
