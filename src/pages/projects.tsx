@@ -1,4 +1,5 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -27,7 +28,15 @@ export default function Projects({ allProjectsData }) {
         {/* <h2 className={utilStyles.headingLg}>projects</h2> */}
         <ul className={utilStyles.list}>
           {allProjectsData.map(
-            ({ id, title, description, githubLink, imagePath, techStack }) => (
+            ({
+              id,
+              title,
+              description,
+              githubLink,
+              siteLink,
+              imagePath,
+              techStack,
+            }) => (
               <li className={utilStyles.listItem} key={id}>
                 <div
                   style={{
@@ -46,15 +55,26 @@ export default function Projects({ allProjectsData }) {
                   >
                     <FontAwesomeIcon icon={faGithub} size="lg" />
                   </Link>
+                  {siteLink && (
+                    <Link
+                      href={siteLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faUpRightFromSquare} />
+                    </Link>
+                  )}
                 </div>
-                <Image
-                  src={imagePath}
-                  alt="project demo"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto' }}
-                ></Image>
+                {imagePath && (
+                  <Image
+                    src={imagePath}
+                    alt="project demo"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                  ></Image>
+                )}
                 <p>{description}</p>
                 <div className={utilStyles.techStackTags}>
                   {techStack.map((tech) => (

@@ -29,6 +29,7 @@ export function getSortedProjectsData() {
         title: string;
         description: string;
         githubLink: string;
+        siteLink: string;
         imagePath: string;
         techStack: string[];
       }),
@@ -77,8 +78,9 @@ export async function getProjectData(id: string) {
       title: string;
       description: string;
       githubLink: string;
-      techStack: string[];
+      sitelink: string;
       imagePath: string;
+      techStack: string[];
     }),
   };
 }
