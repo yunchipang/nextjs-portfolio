@@ -65,16 +65,14 @@ export default function Projects({ allProjectsData }) {
                     </Link>
                   )}
                 </div>
-                {imagePath && (
-                  <Image
-                    src={imagePath}
-                    alt="project demo"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto' }}
-                  ></Image>
-                )}
+                <Image
+                  src={imagePath}
+                  alt="project demo"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto' }}
+                ></Image>
                 <p>{description}</p>
                 <div className={utilStyles.techStackTags}>
                   {techStack.map((tech) => (

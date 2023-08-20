@@ -12,4 +12,4 @@ techStack:
   - Google Places API
 ---
 
-PawPal App
+![PawPal demo](/images/pawpal_demo.jpg)

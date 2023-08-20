@@ -17,4 +17,4 @@ techStack:
   - Grafana
 ---
 
-VocaBoost App
+![VocaBoost demo](/images/vocaboost_app_store.png)
