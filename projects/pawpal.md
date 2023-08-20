@@ -1,6 +1,6 @@
 ---
 title: 'PawPal'
-date: '2023-07-24'
+date: '2023-04-23'
 description: 🐾 Connecting Pet Lovers - Your Ultimate Pet Paradise
 imagePath: /images/pawpal_demo.jpg
 githubLink: https://github.com/yunchipang/PawPal

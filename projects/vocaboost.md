@@ -1,6 +1,6 @@
 ---
 title: 'VocaBoost'
-date: '2023-07-24'
+date: '2023-07-08'
 description: 📚 Improve your TOEFL & GRE vocabulary in an effective way
 githubLink: https://github.com/cwhuang29/vocaboost-app/
 siteLink: https://www.vocabularyboost.com/
