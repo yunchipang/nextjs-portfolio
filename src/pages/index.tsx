@@ -25,7 +25,7 @@ export default function Home() {
           full-stack web & mobile app development.
         </p>
         <p>
-          🌱 i am actively seeking fall 2023/summer 2024 internship/co-op
+          🚀 i am actively seeking fall 2023/summer 2024 internship/co-op
           opportunities in software engineering! you can contact me via{' '}
           <Link href={profileLinks.LINKEDIN} target="_blank">
             <FontAwesomeIcon icon={faLinkedin} size="lg" />
