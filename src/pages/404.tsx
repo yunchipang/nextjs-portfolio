@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 
+// TODO: make 404 cuter, with image/gif
 const Custom404: NextPage = () => {
   return (
     <div>
