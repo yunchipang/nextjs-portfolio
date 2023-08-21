@@ -69,3 +69,11 @@
   border-radius: 20px;
   font-size: 14px;
 }
+
+.blueHighlight {
+  background: linear-gradient(to bottom, transparent 50%, #add8e6 50%);
+}
+
+.yellowHighlight {
+  background: linear-gradient(to bottom, transparent 50%, #f0e68c 50%);
+}
