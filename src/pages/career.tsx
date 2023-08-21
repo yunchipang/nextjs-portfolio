@@ -19,36 +19,40 @@ export default function Career() {
           results-driven approach. Here&apos;s what you can expect when working
           with me:
         </p>
-        <li>
-          Communication
-          <p>
-            <span className={utilStyles.yellowHighlight}>
-              Clear and transparent communication
-            </span>{' '}
-            is key to my work style. I keep stakeholders informed and encourage
-            feedback.
-          </p>
-        </li>
-        <li>
-          Efficiency
-          <p>
-            I&apos;m focused on{' '}
-            <span className={utilStyles.yellowHighlight}>
-              productivity and efficiency
-            </span>
-            , consistently seeking ways to optimize processes and deliver
-            high-quality results
-          </p>
-        </li>
-        <li>
-          Accountability
-          <p>
-            I take <span className={utilStyles.yellowHighlight}>ownership</span>{' '}
-            of my work and responsibilities, ensuring that tasks are completed
-            on time and to the best of my ability.
-          </p>
-        </li>
+        <ol>
+          <li>
+            Communication
+            <p>
+              <span className={utilStyles.yellowHighlight}>
+                Clear and transparent communication
+              </span>{' '}
+              is key to my work style. I keep stakeholders informed and
+              encourage feedback.
+            </p>
+          </li>
+          <li>
+            Efficiency
+            <p>
+              I&apos;m focused on{' '}
+              <span className={utilStyles.yellowHighlight}>
+                productivity and efficiency
+              </span>
+              , consistently seeking ways to optimize processes and deliver
+              high-quality results.
+            </p>
+          </li>
+          <li>
+            Accountability
+            <p>
+              I take{' '}
+              <span className={utilStyles.yellowHighlight}>ownership</span> of
+              my work and responsibilities, ensuring that tasks are completed on
+              time and to the best of my ability.
+            </p>
+          </li>
+        </ol>
       </section>
+      <br />
       <section className={utilStyles.headingMd}>
         <p>
           <Link
