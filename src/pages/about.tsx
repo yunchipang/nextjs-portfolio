@@ -11,7 +11,7 @@ export default function About() {
       </Head>
       <section className={utilStyles.headingMd}>
         <h3>🌱 my roots and adventures</h3>
-        <p className={utilStyles.pSm}>
+        <p>
           I grew up on the outskirts of Taipei, where the bustling streets and
           towering skyscrapers were the backdrop to my upbringing. My roots are
           firmly planted in this dynamic urban environment, however, my path
@@ -21,10 +21,8 @@ export default function About() {
           mature individual . Each destination brought unique challenges and
           opportunities that have enriched my life in profound ways.
         </p>
-      </section>
-      <section className={utilStyles.headingMd}>
         <h3>👩🏻‍💻 becoming a developer</h3>
-        <p className={utilStyles.pSm}>
+        <p>
           Majoring in Business Analytics during my undergraduate degree, I
           discovered my love for programming through an unexpected encounter
           with an internship. Working closely with a self-taught software
@@ -35,10 +33,8 @@ export default function About() {
           paved the way for a career shift towards becoming a software
           developer.
         </p>
-      </section>
-      <section className={utilStyles.headingMd}>
         <h3>💃🏻 beyond the screen</h3>
-        <p className={utilStyles.pSm}>
+        <p>
           Dancing has always held a special place in my heart. Over the years,
           I&apos;ve dedicated time to train and improve my skills. Upon
           relocating to the Bay Area, I had the opportunity to join a dynamic
