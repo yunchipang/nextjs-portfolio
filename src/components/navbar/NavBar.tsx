@@ -19,7 +19,7 @@ export default function NavBar() {
               key={index}
               style={{
                 display: 'inline',
-                padding: '6px',
+                padding: '5px',
               }}
             >
               <Link href={link.path}>{link.name}</Link>

@@ -4,10 +4,10 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 
+import NavBar from 'components/navbar/NavBar';
 import utilStyles from 'styles/utils.module.css';
 
 import styles from './layout.module.css';
-import NavBar from './NavBar';
 const name = 'Yunchi Pang';
 export const siteTitle = 'yunchipang';
 

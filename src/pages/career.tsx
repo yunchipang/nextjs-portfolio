@@ -1,4 +1,5 @@
-import Layout from 'components/layout';
+import Layout from 'components/layout/Layout';
+import References from 'components/references/References';
 import utilStyles from 'styles/utils.module.css';
 
 export default function Career() {
@@ -47,6 +48,10 @@ export default function Career() {
             </p>
           </li>
         </ol>
+      </section>
+      <section className={utilStyles.headingMd}>
+        <h3>👥 references</h3>
+        <References />
       </section>
     </Layout>
   );
