@@ -3,6 +3,7 @@ import {
   faInstagram,
   faWordpress,
 } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
 import Link from 'next/link';
 
