@@ -1,3 +1,5 @@
+import { faCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -6,7 +8,6 @@ import utilStyles from 'styles/utils.module.css';
 
 import styles from './layout.module.css';
 import NavBar from './NavBar';
-
 const name = 'Yunchi Pang';
 export const siteTitle = 'yunchipang';
 
@@ -65,6 +66,18 @@ export default function Layout({
         )}
       </header>
       <main>{children}</main>
+      <br />
+      <section className={utilStyles.headingMd}>
+        <p>
+          <Link
+            href="/yunchipang_resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faCircleDown} /> download my resume
+          </Link>{' '}
+        </p>
+      </section>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>
