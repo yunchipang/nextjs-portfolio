@@ -1,8 +1,20 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import utilStyles from 'styles/utils.module.css';
 
+import './references.module.css';
+import ReferenceItem from './ReferenceItem';
+import referencesData from './references.json';
+
+interface Reference {
+  id: number;
+  type: 'supervisor' | 'coworker';
+  initial: string;
+  content: string;
+}
+
 function References() {
+  const [refs] = useState<Reference[]>(referencesData as Reference[]);
   const [activeTab, setActiveTab] = useState<'supervisors' | 'coworkers'>(
     'supervisors'
   );
@@ -11,11 +23,6 @@ function References() {
     setActiveTab(tab);
   };
 
-  // debug
-  useEffect(() => {
-    console.log(activeTab);
-  }, [activeTab]);
-
   return (
     <section className={utilStyles.headingMd}>
       <div className="tab-container">
@@ -23,7 +30,7 @@ function References() {
           className={`tab ${activeTab === 'supervisors' ? 'active' : ''}`}
           onClick={() => handleTabClick('supervisors')}
         >
-          Supervisor
+          Supervisors
         </div>
         <div
           className={`tab ${activeTab === 'coworkers' ? 'active' : ''}`}
@@ -35,10 +42,30 @@ function References() {
 
       <div className="tab-content">
         {activeTab === 'supervisors' && (
-          <div>{/* Content for Supervisor Tab */}</div>
+          <div>
+            {refs
+              .filter((ref) => ref.type === 'supervisor')
+              .map((ref) => (
+                <ReferenceItem
+                  key={ref.id}
+                  initial={ref.initial}
+                  content={ref.content}
+                />
+              ))}
+          </div>
         )}
         {activeTab === 'coworkers' && (
-          <div>{/* Content for Coworkers Tab */}</div>
+          <div>
+            {refs
+              .filter((ref) => ref.type === 'coworker')
+              .map((ref) => (
+                <ReferenceItem
+                  key={ref.id}
+                  initial={ref.initial}
+                  content={ref.content}
+                />
+              ))}
+          </div>
         )}
       </div>
     </section>
