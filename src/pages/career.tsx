@@ -1,7 +1,3 @@
-import { faCircleDown } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Link from 'next/link';
-
 import Layout from 'components/layout';
 import utilStyles from 'styles/utils.module.css';
 
@@ -51,18 +47,6 @@ export default function Career() {
             </p>
           </li>
         </ol>
-      </section>
-      <br />
-      <section className={utilStyles.headingMd}>
-        <p>
-          <Link
-            href="/yunchipang_resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faCircleDown} /> download my resume
-          </Link>{' '}
-        </p>
       </section>
     </Layout>
   );
