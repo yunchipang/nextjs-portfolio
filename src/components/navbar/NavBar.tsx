@@ -5,8 +5,6 @@ import navLinks from 'utils/navLinks';
 const navBarStyle = {
   display: 'flex',
   justifyContent: 'flex-end',
-  // paddingTop: '10px', // Optional padding for top space
-  // paddingRight: '10px', // Optional padding for right space
 };
 
 export default function NavBar() {

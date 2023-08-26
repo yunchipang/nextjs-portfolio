@@ -1,5 +1,6 @@
 import React from 'react';
-import './references.module.css';
+
+import refStyles from './references.module.css';
 
 const ReferenceItem = ({ initial, content }) => {
   const circleStyle = {
@@ -15,11 +16,9 @@ const ReferenceItem = ({ initial, content }) => {
   };
 
   return (
-    <div className="ref-box">
-      <div className="ref-initial" style={circleStyle}>
-        {initial}
-      </div>
-      <div className="ref-content">
+    <div className={refStyles.refBox}>
+      <div style={circleStyle}>{initial}</div>
+      <div className={refStyles.refContent}>
         <p>{content}</p>
       </div>
     </div>

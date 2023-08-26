@@ -49,6 +49,7 @@ export default function Career() {
           </li>
         </ol>
       </section>
+      <br />
       <section className={utilStyles.headingMd}>
         <h3>👥 references</h3>
         <References />

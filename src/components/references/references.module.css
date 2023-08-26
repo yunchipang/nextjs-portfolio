@@ -1,32 +1,31 @@
 /* Reference */
-.tab-container {
+.tabContainer {
   display: flex;
+  justify-content: center;
 }
 
 .tab {
   cursor: pointer;
-  padding: 10px 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  margin-right: 10px; /* Add some spacing between tabs */
+  margin: 20px;
 }
 
-.tab.active {
-  background-color: #fff;
-  border-bottom: 1px solid #fff;
+.tab:active {
+  background: linear-gradient(to bottom, transparent 50%, #f0f0f0 50%);
+}
+
+.tab:hover {
+  background: linear-gradient(to bottom, transparent 50%, #f0f0f0 50%);
 }
 
 /* ReferenceItem */
-.ref-box {
+.refBox {
   display: flex;
 }
 
-.ref-initial {
-  flex: 2;
-}
-
-.ref-content {
-  border: 1px solid blue;
-  border-radius: 5px;
+.refContent {
+  flex: 9;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  padding: 10px 25px;
+  margin: 10px;
 }

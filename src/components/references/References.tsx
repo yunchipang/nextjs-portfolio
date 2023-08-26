@@ -2,9 +2,9 @@ import { useState } from 'react';
 
 import utilStyles from 'styles/utils.module.css';
 
-import './references.module.css';
 import ReferenceItem from './ReferenceItem';
-import referencesData from './references.json';
+import refsData from './references.json';
+import refStyles from './references.module.css';
 
 interface Reference {
   id: number;
@@ -14,7 +14,7 @@ interface Reference {
 }
 
 function References() {
-  const [refs] = useState<Reference[]>(referencesData as Reference[]);
+  const [refs] = useState<Reference[]>(refsData as Reference[]);
   const [activeTab, setActiveTab] = useState<'supervisors' | 'coworkers'>(
     'supervisors'
   );
@@ -25,22 +25,26 @@ function References() {
 
   return (
     <section className={utilStyles.headingMd}>
-      <div className="tab-container">
+      <div className={refStyles.tabContainer}>
         <div
-          className={`tab ${activeTab === 'supervisors' ? 'active' : ''}`}
+          className={`${refStyles.tab} ${
+            activeTab === 'supervisors' ? refStyles.tabActive : ''
+          }`}
           onClick={() => handleTabClick('supervisors')}
         >
           Supervisors
         </div>
         <div
-          className={`tab ${activeTab === 'coworkers' ? 'active' : ''}`}
+          className={`${refStyles.tab} ${
+            activeTab === 'coworkers' ? refStyles.tabActive : ''
+          }`}
           onClick={() => handleTabClick('coworkers')}
         >
           Coworkers
         </div>
       </div>
 
-      <div className="tab-content">
+      <div className={refStyles.refBox}>
         {activeTab === 'supervisors' && (
           <div>
             {refs
