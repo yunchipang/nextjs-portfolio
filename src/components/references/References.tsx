@@ -27,17 +27,17 @@ function References() {
     <section className={utilStyles.headingMd}>
       <div className={refStyles.tabContainer}>
         <div
-          className={`${refStyles.tab} ${
-            activeTab === 'supervisors' ? refStyles.tabActive : ''
-          }`}
+          className={
+            activeTab === 'supervisors' ? refStyles.tabActive : refStyles.tab
+          }
           onClick={() => handleTabClick('supervisors')}
         >
           Supervisors
         </div>
         <div
-          className={`${refStyles.tab} ${
-            activeTab === 'coworkers' ? refStyles.tabActive : ''
-          }`}
+          className={
+            activeTab === 'coworkers' ? refStyles.tabActive : refStyles.tab
+          }
           onClick={() => handleTabClick('coworkers')}
         >
           Coworkers

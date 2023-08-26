@@ -9,7 +9,9 @@
   margin: 20px;
 }
 
-.tab:active {
+.tabActive {
+  cursor: pointer;
+  margin: 20px;
   background: linear-gradient(to bottom, transparent 50%, #f0f0f0 50%);
 }
 
