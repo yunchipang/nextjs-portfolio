@@ -2,25 +2,13 @@
   {
     "id": 1,
     "type": "supervisor",
-    "initial": "A",
+    "initial": "M",
     "content": "During her time here, she consistently demonstrated exceptional problem-solving skills. Her ability to find innovative solutions to complex challenges greatly contributed to our team's success."
   },
   {
     "id": 2,
     "type": "coworker",
-    "initial": "B",
+    "initial": "A",
     "content": "An outstanding colleague, always ready to collaborate and share her expertise. Her dedication to our projects was truly commendable, and her positive attitude uplifted the team's spirit."
-  },
-  {
-    "id": 3,
-    "type": "coworker",
-    "initial": "C",
-    "content": "A highly motivated coworker with a strong work ethic. She consistently went above and beyond her duties, taking the initiative to lead and mentor junior team members."
-  },
-  {
-    "id": 4,
-    "type": "supervisor",
-    "initial": "D",
-    "content": "One of the most dedicated and reliable employees I've had the pleasure of working with. Her leadership skills were evident in her ability to guide the team through challenging projects, always ensuring success."
   }
 ]

@@ -7,7 +7,7 @@ const ReferenceItem = ({ initial, content }) => {
     width: '40px',
     height: '40px',
     borderRadius: '50%',
-    backgroundColor: '#3498db',
+    backgroundColor: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
     color: '#fff',
     display: 'flex',
     alignItems: 'center',
