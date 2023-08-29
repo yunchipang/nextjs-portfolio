@@ -1,4 +1,4 @@
-/* Reference */
+/* Testimonials */
 .tabContainer {
   display: flex;
   justify-content: center;
@@ -19,12 +19,12 @@
   background: linear-gradient(to bottom, transparent 50%, #f0f0f0 50%);
 }
 
-/* ReferenceItem */
-.refBox {
+/* Testimonial */
+.testiBox {
   display: flex;
 }
 
-.refContent {
+.testiContent {
   flex: 9;
   background-color: #f8f8f8;
   border-radius: 20px;

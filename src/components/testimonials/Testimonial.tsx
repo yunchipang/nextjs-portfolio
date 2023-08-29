@@ -1,8 +1,8 @@
 import React from 'react';
 
-import refStyles from './references.module.css';
+import testiStyles from './testimonials.module.css';
 
-const ReferenceItem = ({ initial, content }) => {
+const Testimonial = ({ initial, content }) => {
   const circleStyle = {
     width: '40px',
     height: '40px',
@@ -16,13 +16,13 @@ const ReferenceItem = ({ initial, content }) => {
   };
 
   return (
-    <div className={refStyles.refBox}>
+    <div className={testiStyles.testiBox}>
       <div style={circleStyle}>{initial}</div>
-      <div className={refStyles.refContent}>
+      <div className={testiStyles.testiContent}>
         <p>{content}</p>
       </div>
     </div>
   );
 };
 
-export default ReferenceItem;
+export default Testimonial;

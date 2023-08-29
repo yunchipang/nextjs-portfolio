@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "type": "supervisor",
+    "initial": "M",
+    "content": "During her time here, she consistently demonstrated exceptional problem-solving skills. Her ability to find innovative solutions to complex challenges greatly contributed to our team's success."
+  },
+  {
+    "id": 2,
+    "type": "coworker",
+    "initial": "J",
+    "content": "She is able to understand business needs and plan out a roadmap for all the features needed when the technical strategy is unclear. Besides, she can handle a lot of new information at once and meet deadlines. She also has a great sense of aesthetics and can design and write delicate UI and clear documents."
+  }
+]
