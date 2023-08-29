@@ -1,4 +1,5 @@
-import Layout from 'components/layout';
+import Layout from 'components/layout/Layout';
+import TestimonialsContainer from 'components/testimonials/TestimonialsContainer';
 import utilStyles from 'styles/utils.module.css';
 
 export default function Career() {
@@ -47,6 +48,11 @@ export default function Career() {
             </p>
           </li>
         </ol>
+      </section>
+      <br />
+      <section className={utilStyles.headingMd}>
+        <h3>👥 testimonials</h3>
+        <TestimonialsContainer />
       </section>
     </Layout>
   );

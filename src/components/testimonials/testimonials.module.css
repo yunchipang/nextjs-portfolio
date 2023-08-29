@@ -1,0 +1,33 @@
+/* Testimonials */
+.tabContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.tab {
+  cursor: pointer;
+  margin: 20px;
+}
+
+.tabActive {
+  cursor: pointer;
+  margin: 20px;
+  background: linear-gradient(to bottom, transparent 50%, #f0f0f0 50%);
+}
+
+.tab:hover {
+  background: linear-gradient(to bottom, transparent 50%, #f0f0f0 50%);
+}
+
+/* Testimonial */
+.testiBox {
+  display: flex;
+}
+
+.testiContent {
+  flex: 9;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  padding: 5px 25px;
+  margin: 10px;
+}

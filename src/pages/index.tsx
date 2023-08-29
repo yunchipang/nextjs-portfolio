@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
 import Link from 'next/link';
 
-import Layout, { siteTitle } from 'components/layout';
+import Layout, { siteTitle } from 'components/layout/Layout';
 import utilStyles from 'styles/utils.module.css';
 import profileLinks from 'utils/profileLinks';
 

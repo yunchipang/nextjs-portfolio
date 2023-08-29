@@ -5,8 +5,6 @@ import navLinks from 'utils/navLinks';
 const navBarStyle = {
   display: 'flex',
   justifyContent: 'flex-end',
-  // paddingTop: '10px', // Optional padding for top space
-  // paddingRight: '10px', // Optional padding for right space
 };
 
 export default function NavBar() {
@@ -19,7 +17,7 @@ export default function NavBar() {
               key={index}
               style={{
                 display: 'inline',
-                padding: '6px',
+                padding: '5px',
               }}
             >
               <Link href={link.path}>{link.name}</Link>
