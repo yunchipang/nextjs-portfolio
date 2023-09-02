@@ -36,7 +36,7 @@ function TestimonialsContainer() {
           }
           onClick={() => handleTabClick('supervisors')}
         >
-          Supervisors
+          supervisors
         </div>
         <div
           className={
@@ -44,7 +44,7 @@ function TestimonialsContainer() {
           }
           onClick={() => handleTabClick('coworkers')}
         >
-          Coworkers
+          coworkers
         </div>
       </div>
 
