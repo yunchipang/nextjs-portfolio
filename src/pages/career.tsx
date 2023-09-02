@@ -6,6 +6,11 @@ export default function Career() {
   return (
     <Layout>
       <section className={utilStyles.headingMd}>
+        <h3>👥 testimonials</h3>
+        <TestimonialsContainer />
+      </section>
+      <br />
+      <section className={utilStyles.headingMd}>
         <h3>💼 work style</h3>
         <p>
           I thrive in a{' '}
@@ -48,11 +53,6 @@ export default function Career() {
             </p>
           </li>
         </ol>
-      </section>
-      <br />
-      <section className={utilStyles.headingMd}>
-        <h3>👥 testimonials</h3>
-        <TestimonialsContainer />
       </section>
     </Layout>
   );

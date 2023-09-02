@@ -74,13 +74,13 @@ export default function Layout({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faCircleDown} /> download my resume
-          </Link>{' '}
+            <FontAwesomeIcon icon={faCircleDown} /> download resume
+          </Link>
         </p>
       </section>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
+          <Link href="/">← back to home</Link>
         </div>
       )}
     </div>
