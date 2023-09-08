@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import Layout from 'components/layout/Layout';
 import TestimonialsContainer from 'components/testimonials/TestimonialsContainer';
 import utilStyles from 'styles/utils.module.css';
@@ -5,6 +7,9 @@ import utilStyles from 'styles/utils.module.css';
 export default function Career() {
   return (
     <Layout>
+      <Head>
+        <title>career</title>
+      </Head>
       <section className={utilStyles.headingMd}>
         <h3>👥 testimonials</h3>
         <TestimonialsContainer />
