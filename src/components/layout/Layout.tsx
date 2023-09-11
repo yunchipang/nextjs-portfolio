@@ -69,11 +69,7 @@ export default function Layout({
       <br />
       <section className={utilStyles.headingMd}>
         <p>
-          <Link
-            href="/yunchipang_resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faCircleDown} /> download resume
           </Link>
         </p>
