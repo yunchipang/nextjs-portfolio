@@ -1,5 +1,5 @@
 ---
-title: 'Dynamic Programming guide on Leetcode 322. Coin Change'
+title: 'Dynamic Programming guide on Coin Change'
 date: '2023-09-11'
 techStack:
   - Leetcode

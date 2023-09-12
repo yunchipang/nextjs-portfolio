@@ -1,5 +1,5 @@
 ---
-title: 'Trigger email notification upon data change in Django REST Framework'
+title: 'Triggering email notification upon data change in Django REST Framework'
 date: '2023-09-09'
 techStack:
   - Django
