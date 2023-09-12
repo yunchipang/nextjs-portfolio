@@ -38,7 +38,7 @@ def coinChange(self, coins: List[int], amount: int) -> int:
 ```python
 def coinChange(self, coins: List[int], amount: int) -> int:
 
-	# key=(i, amount), value=min num of coins sum up to amount
+	# key=amount, value=min num of coins sum up to amount
     cache = {}
 
     def dfs(amount):
