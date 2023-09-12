@@ -1,12 +1,16 @@
 ---
-title: 'Dynamic Programming breakdown on Leetcode 322. Coin Change'
+title: 'Dynamic Programming guide on Coin Change'
 date: '2023-09-11'
 techStack:
   - Leetcode
   - Dynamic Programming
 ---
 
-I had a difficult time understanding how to solve dynamic programming problems on leetcode. Thus, I decided to write myself a note on my path breaking down [Leetcode 322. Coin Change](https://leetcode.com/problems/coin-change/). From recursive solution, recursive solution with caching, to the optimal dynamic programming solution.
+I encountered challenges while trying to solve dynamic programming problems on LeetCode. Thus, I decided to write myself a guide on the path of breaking down [Leetcode 322. Coin Change](https://leetcode.com/problems/coin-change/).This guide starts with the recursive solution, progresses to a recursive solution with caching for optimization, and finally delves into the optimal dynamic programming solution.
+
+### what is dynamic programming?
+
+Dynamic programming is effective in finding the best solution for problems with many **duplicated subproblems**. When faced with complex and structured problems, we can use dynamic programming to break down the problem into several smaller subproblems, identify patterns among them, and record the answers to these subproblems. When the same subproblem is encountered again, we can directly look up the previously computed answer from a table. It can be seen as a problem-solving approach that trades space for time.
 
 ### 1. recursive solution
 
