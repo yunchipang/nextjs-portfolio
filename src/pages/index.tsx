@@ -24,8 +24,12 @@ export default function Home() {
           full-stack web & mobile app development.
         </p>
         <p>
-          🚀 i am actively seeking fall 2023/summer 2024 internship/co-op
-          opportunities in software engineering! you can contact me via{' '}
+          🤖 passionate about building software solutions that empower
+          individuals & businesses to thrive.
+        </p>
+        <p>
+          🚀 actively seeking summer 2024 internship/co-op opportunities in
+          software engineering. feel free to contact me via{' '}
           <Link href={profileLinks.LINKEDIN} target="_blank">
             <FontAwesomeIcon icon={faLinkedin} size="lg" />
           </Link>
@@ -39,6 +43,7 @@ export default function Home() {
           <Link href={profileLinks.TRIZTRAVEL} target="_blank">
             <FontAwesomeIcon icon={faWordpress} /> triztravel.com
           </Link>
+          . drop by for a performance or an article!
         </p>
       </section>
     </Layout>
