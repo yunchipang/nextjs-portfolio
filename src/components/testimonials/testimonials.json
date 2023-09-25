@@ -3,18 +3,24 @@
     "id": 1,
     "type": "supervisor",
     "initial": "M",
-    "content": "Yunchi is a fast-learner and a problem-solver. When encountering challenges, she can tackle the situation independently by looking for valid solutions before seeking help from the supervisor."
+    "content": "Yun-Chi is a fast-learner and a problem-solver. When encountering challenges, she can tackle the situation independently by looking for valid solutions before seeking help from the supervisor."
   },
   {
     "id": 2,
     "type": "coworker",
     "initial": "J",
-    "content": "She is able to understand business needs and plan out a roadmap for all the features needed when the technical strategy is unclear. Besides, she handles new information well and always meets deadlines. With a great sense of aesthetics, she designs and writes delicate UI and clear documents."
+    "content": "Yun-Chi is able to understand business needs and plan out a roadmap for all the features needed when the technical strategy is unclear. Besides, she handles new information well and always meets deadlines. With a great sense of aesthetics, she designs and writes delicate UI and clear documents."
   },
   {
     "id": 3,
     "type": "coworker",
     "initial": "A",
-    "content": "Yunchi is a challenge-taker with the ability to adapt to changes and is an agile learner who can quickly acquire skills and apply what she has learned within a limited period of time. She excels in structuring solutions for unidentified issues and effectively communicates with stakeholders. Her potential was fully demonstrated during her internship, where she proved to be both a valuable team player and a talented individual capable of working independently."
+    "content": "She is a challenge-taker with the ability to adapt to changes and is an agile learner who can quickly acquire skills and apply what she has learned within a limited period of time. She excels in structuring solutions for unidentified issues and effectively communicates with stakeholders. Her potential was fully demonstrated during her internship, where she proved to be both a valuable team player and a talented individual capable of working independently."
+  },
+  {
+    "id": 4,
+    "type": "coworker",
+    "initial": "M",
+    "content": "Yun-Chi is a dynamic professional with an innate ability to navigate complex scenarios. With a keen eye for detail and a proactive mindset, she consistently finds innovative solutions to challenging problems. Whether working collaboratively in a team or steering projects autonomously, her dedication and aptitude shine through. Yun-Chi's contributions have highlighted her capacity for adaptability, and talent for fostering open and effective communication."
   }
 ]

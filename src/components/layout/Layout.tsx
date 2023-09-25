@@ -8,7 +8,7 @@ import NavBar from 'components/navbar/NavBar';
 import utilStyles from 'styles/utils.module.css';
 
 import styles from './layout.module.css';
-const name = 'Yunchi Pang';
+const name = 'Yun-Chi Pang';
 export const siteTitle = 'yunchipang';
 
 export default function Layout({
