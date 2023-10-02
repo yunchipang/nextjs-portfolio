@@ -18,7 +18,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <h3>hey, i&apos;m Yun-Chi 🙌🏼</h3>
+        <h4>nice to meet you 🤝🏼</h4>
         <p>
           👩🏻‍🎓 a software engineer based in san francisco bay area, specialized in
           full-stack web & mobile app development.
