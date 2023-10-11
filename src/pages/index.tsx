@@ -20,8 +20,8 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <h4>nice to meet you 🤝🏼</h4>
         <p>
-          👩🏻‍🎓 a software engineer based in san francisco bay area, specialized in
-          full-stack web & mobile app development.
+          👩🏻‍🎓 a software engineer intern based in san francisco bay area,
+          specialized in full-stack web & mobile app development.
         </p>
         <p>
           🤖 passionate about building software solutions that empower
@@ -35,7 +35,7 @@ export default function Home() {
           </Link>
         </p>
         <p>
-          ✨ when i am not coding, i train in hip-hop at{' '}
+          🕺🏻 when i am not coding, i train in hip-hop at{' '}
           <Link href={profileLinks.GG} target="_blank">
             <FontAwesomeIcon icon={faInstagram} /> groovegeneration
           </Link>{' '}
@@ -45,6 +45,7 @@ export default function Home() {
           </Link>
           . drop by for a performance or an article!
         </p>
+        <p>💡 fun facts: i love dinosaurs 🦖🦕 and monsteras 🪴</p>
       </section>
     </Layout>
   );
