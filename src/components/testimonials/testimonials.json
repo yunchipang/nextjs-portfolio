@@ -3,13 +3,13 @@
     "id": 1,
     "type": "supervisor",
     "initial": "M",
-    "content": "Yun-Chi is a fast-learner and a problem-solver. When encountering challenges, she can tackle the situation independently by looking for valid solutions before seeking help from the supervisor."
+    "content": "Yunchi is a fast-learner and a problem-solver. When encountering challenges, she can tackle the situation independently by looking for valid solutions before seeking help from the supervisor."
   },
   {
     "id": 2,
     "type": "coworker",
     "initial": "J",
-    "content": "Yun-Chi is able to understand business needs and plan out a roadmap for all the features needed when the technical strategy is unclear. Besides, she handles new information well and always meets deadlines. With a great sense of aesthetics, she designs and writes delicate UI and clear documents."
+    "content": "Yunchi is able to understand business needs and plan out a roadmap for all the features needed when the technical strategy is unclear. Besides, she handles new information well and always meets deadlines. With a great sense of aesthetics, she designs and writes delicate UI and clear documents."
   },
   {
     "id": 3,
@@ -21,12 +21,12 @@
     "id": 4,
     "type": "coworker",
     "initial": "M",
-    "content": "Yun-Chi is a dynamic professional with an innate ability to navigate complex scenarios. With a keen eye for detail and a proactive mindset, she consistently finds innovative solutions to challenging problems. Whether working collaboratively in a team or steering projects autonomously, her dedication and aptitude shine through. Yun-Chi's contributions have highlighted her capacity for adaptability, and talent for fostering open and effective communication."
+    "content": "Yunchi is a dynamic professional with an innate ability to navigate complex scenarios. With a keen eye for detail and a proactive mindset, she consistently finds innovative solutions to challenging problems. Whether working collaboratively in a team or steering projects autonomously, her dedication and aptitude shine through. Yunchi's contributions have highlighted her capacity for adaptability, and talent for fostering open and effective communication."
   },
   {
     "id": 5,
     "type": "coworker",
     "initial": "Y",
-    "content": "I had the pleasure of working with Yun-Chi at OurDate, and I was consistently impressed by her technical skills, problem-solving abilities, and dedication to her work. Yun-Chi has a deep understanding of software engineering principles and practices, as well as proficiency in a variety of programming languages and technologies, from the user interface to server-side logic. What makes her stand out, however, are her leadership skills and willingness to help others. Yun-Chi is an excellent team player and communicator, and I have no doubt that she would be a valuable asset to any team."
+    "content": "I had the pleasure of working with Yunchi at OurDate, and I was consistently impressed by her technical skills, problem-solving abilities, and dedication to her work. Yunchi has a deep understanding of software engineering principles and practices, as well as proficiency in a variety of programming languages and technologies, from the user interface to server-side logic. What makes her stand out, however, are her leadership skills and willingness to help others. Yunchi is an excellent team player and communicator, and I have no doubt that she would be a valuable asset to any team."
   }
 ]
