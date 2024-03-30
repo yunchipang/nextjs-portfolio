@@ -1,7 +1,11 @@
 import {
   faLinkedin,
+  faGithub,
   faInstagram,
   faWordpress,
+  faPython,
+  faJs,
+  faJava,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
@@ -20,8 +24,11 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <h4>nice to meet you 🤝🏼</h4>
         <p>
-          👩🏻‍🎓 a software engineer intern based in san francisco bay area,
-          specialized in full-stack web & mobile app development.
+          👩🏻‍🎓 a software engineer based in san francisco bay area, specialized in
+          backend development using{' '}
+          <FontAwesomeIcon icon={faPython} size="lg" />{' '}
+          <FontAwesomeIcon icon={faJs} size="lg" />{' '}
+          <FontAwesomeIcon icon={faJava} size="lg" />
         </p>
         <p>
           🤖 passionate about building software solutions that empower
@@ -32,16 +39,20 @@ export default function Home() {
           software engineering. feel free to contact me via{' '}
           <Link href={profileLinks.LINKEDIN} target="_blank">
             <FontAwesomeIcon icon={faLinkedin} size="lg" />
+          </Link>{' '}
+          or check out my{' '}
+          <Link href={profileLinks.GITHUB} target="_blank">
+            <FontAwesomeIcon icon={faGithub} size="lg" />
           </Link>
         </p>
         <p>
-          🕺🏻 when i am not coding, i train in hip-hop at{' '}
+          🕺🏻 when i am not coding, i practice gymnastics, train in hip-hop at{' '}
           <Link href={profileLinks.GG} target="_blank">
             <FontAwesomeIcon icon={faInstagram} /> groovegeneration
-          </Link>{' '}
-          and i write blogs for{' '}
+          </Link>
+          , and i write blogs for{' '}
           <Link href={profileLinks.TRIZTRAVEL} target="_blank">
-            <FontAwesomeIcon icon={faWordpress} /> triztravel.com
+            <FontAwesomeIcon icon={faWordpress} /> triztravel
           </Link>
           . drop by for a performance or an article!
         </p>
