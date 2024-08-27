@@ -5,7 +5,6 @@ import {
   faWordpress,
   faPython,
   faJs,
-  faJava,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
@@ -54,7 +53,7 @@ export default function Home() {
           <Link href={profileLinks.TRIZTRAVEL} target="_blank">
             <FontAwesomeIcon icon={faWordpress} /> triztravel
           </Link>{' '}
-          !
+          .
         </p>
         <p>💡 fun facts: i love dinosaurs 🦖🦕 and monsteras 🪴</p>
       </section>
