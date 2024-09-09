@@ -57,7 +57,7 @@ export default function Home() {
         </p>
         <p>
           💡 fun facts: i love dinosaurs 🦖🦕 and keeping monsteras🪴 in my
-          home. oh, and you've probably noticed my quirky habit of typing
+          home. oh, and you&apos;ve probably noticed my quirky habit of typing
           everything in lowercase ⌨️ !
         </p>
       </section>
