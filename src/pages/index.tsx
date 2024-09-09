@@ -49,7 +49,7 @@ export default function Home() {
           <Link href={profileLinks.GG} target="_blank">
             <FontAwesomeIcon icon={faInstagram} /> groovegeneration
           </Link>
-          , camping in the great outdoors, and i write blogs for{' '}
+          , camp in the great outdoors, and write blogs for{' '}
           <Link href={profileLinks.TRIZTRAVEL} target="_blank">
             <FontAwesomeIcon icon={faWordpress} /> triztravel
           </Link>{' '}
@@ -58,7 +58,7 @@ export default function Home() {
         <p>
           💡 fun facts: i love dinosaurs 🦖🦕 and keeping monsteras🪴 in my
           home. oh, and you've probably noticed my quirky habit of typing
-          everything in lowercase.
+          everything in lowercase ⌨️ !
         </p>
       </section>
     </Layout>
