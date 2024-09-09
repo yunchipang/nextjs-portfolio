@@ -24,7 +24,7 @@ export default function Home() {
         <h4>nice to meet you 🤝🏼</h4>
         <p>
           👩🏻‍🎓 a software engineer based in san francisco bay area, specialized in
-          backend development using <FontAwesomeIcon icon={faJs} size="lg" />{' '}
+          fullstack development using <FontAwesomeIcon icon={faJs} size="lg" />{' '}
           javascript / typescript and{' '}
           <FontAwesomeIcon icon={faPython} size="lg" /> python.
         </p>
@@ -33,7 +33,7 @@ export default function Home() {
           individuals & businesses to thrive.
         </p>
         <p>
-          🚀 actively seeking 2025 new grad backend software engineer
+          🚀 actively seeking 2025 new grad fullstack/backend software engineer
           opportunities. feel free to contact me via{' '}
           <Link href={profileLinks.LINKEDIN} target="_blank">
             <FontAwesomeIcon icon={faLinkedin} size="lg" />
@@ -49,13 +49,17 @@ export default function Home() {
           <Link href={profileLinks.GG} target="_blank">
             <FontAwesomeIcon icon={faInstagram} /> groovegeneration
           </Link>
-          , and i write blogs for{' '}
+          , camp in the great outdoors, and write blogs for{' '}
           <Link href={profileLinks.TRIZTRAVEL} target="_blank">
             <FontAwesomeIcon icon={faWordpress} /> triztravel
           </Link>{' '}
           .
         </p>
-        <p>💡 fun facts: i love dinosaurs 🦖🦕 and monsteras 🪴</p>
+        <p>
+          💡 fun facts: i love dinosaurs 🦖🦕 and keeping monsteras🪴 in my
+          home. oh, and you&apos;ve probably noticed my quirky habit of typing
+          everything in lowercase ⌨️ !
+        </p>
       </section>
     </Layout>
   );
