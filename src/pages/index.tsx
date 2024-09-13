@@ -33,7 +33,7 @@ export default function Home() {
           individuals & businesses to thrive.
         </p>
         <p>
-          🚀 actively seeking 2025 new grad fullstack/backend software engineer
+          🚀 actively seeking 2025 new grad fullstack software engineer
           opportunities. feel free to contact me via{' '}
           <Link href={profileLinks.LINKEDIN} target="_blank">
             <FontAwesomeIcon icon={faLinkedin} size="lg" />
@@ -56,8 +56,8 @@ export default function Home() {
           .
         </p>
         <p>
-          💡 fun facts: i love dinosaurs 🦖🦕 and keeping monsteras🪴 in my
-          home. oh, and you&apos;ve probably noticed my quirky habit of typing
+          💡 fun facts: i love dinosaurs 🦖🦕 and i keep monsteras🪴 in my home.
+          oh, and you&apos;ve probably noticed my quirky little habit of typing
           everything in lowercase ⌨️ !
         </p>
       </section>
