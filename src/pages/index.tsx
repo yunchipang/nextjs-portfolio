@@ -33,7 +33,7 @@ export default function Home() {
           individuals & businesses to thrive.
         </p>
         <p>
-          🚀 actively seeking 2025 new grad fullstack software engineer
+          🚀 actively seeking 2025 new grad fullstack/backend software engineer
           opportunities. feel free to contact me via{' '}
           <Link href={profileLinks.LINKEDIN} target="_blank">
             <FontAwesomeIcon icon={faLinkedin} size="lg" />
