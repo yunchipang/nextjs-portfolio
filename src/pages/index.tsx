@@ -1,10 +1,7 @@
 import {
   faLinkedin,
   faGithub,
-  faInstagram,
   faWordpress,
-  faPython,
-  faJs,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
