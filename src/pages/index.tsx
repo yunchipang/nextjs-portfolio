@@ -20,8 +20,7 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <h4>nice to meet you 🤝🏼</h4>
         <p>
-          👩🏻‍🎓 a software engineer based in san francisco bay area, focused on
-          backend/data engineering with python, java and rust.
+          👩🏻‍🎓 a software engineer based in boston, with hands-on experience in data platform and large-scale processing systems.
         </p>
         <p>
           🤖 passionate about open-source (check out my{' '}
@@ -32,20 +31,8 @@ export default function Home() {
           businesses, and communities to thrive.
         </p>
         <p>
-          🚀 actively seeking entry level backend/data engineer opportunities.
-          feel free to contact me via{' '}
-          <Link href={profileLinks.LINKEDIN} target="_blank">
-            <FontAwesomeIcon icon={faLinkedin} size="lg" />
-          </Link>
-          .
-        </p>
-        <p>
-          🕺🏻 when i am not coding, i hit the gym, dance, snowbaord, camp in the
-          outdoors, and write blogs for{' '}
-          <Link href={profileLinks.TRIZTRAVEL} target="_blank">
-            <FontAwesomeIcon icon={faWordpress} /> triztravel
-          </Link>
-          .
+          🕺🏻 when i am not coding, i hit the gym, dance, snowboard, cook & camp in the
+          outdoors.
         </p>
         <p>
           💡 fun facts: i love dinosaurs🦕 and i keep monsteras🪴 in my home.
